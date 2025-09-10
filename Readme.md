@@ -147,16 +147,16 @@ python bot.py
 
 ## 👨‍💻 Credits
 
-* **Development**: [Eko Muhammad M](https://github.com/ekomuhammadm)
+* **Development**: [Cylne](https://github.com/Cylne)
 * **API Provider**: [ferdev.my.id](https://api.ferdev.my.id)
-* **Support & Donasi**: [Saweria](https://saweria.co/)
+* **Support & Donasi**: [Saweria](https://saweria.co/CYLNE)
 
 
 
 ## 📬 Informasi & Kontak
 
-* 📌 Telegram: [@your\_bot\_username](https://t.me/Cylneee)
-* 💻 GitHub: [github.com/ekomuhammadm](https://github.com/Cylne)
+* 📌 Telegram: [@your\_bot\Cylne Project](https://t.me/Cylneee)
+* 💻 GitHub: [github.com/Cylne](https://github.com/Cylne)
 * ☕ Donasi: [Saweria](https://saweria.co/CYLNE)
 
 
