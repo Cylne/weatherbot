@@ -157,7 +157,7 @@ python bot.py
 
 ## 📬 Informasi & Kontak
 
-* 📌 Telegram: [\Cylne Project](https://t.me/Cylneee)
+* 📌 Telegram: [Cylne Project](https://t.me/Cylneee)
 * 💻 GitHub: [github.com/Cylne](https://github.com/Cylne)
 * ☕ Donasi: [Saweria](https://saweria.co/CYLNE)
 
