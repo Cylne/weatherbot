@@ -11,7 +11,6 @@ from telegram.ext import (
     ContextTypes, JobQueue
 )
 
-# Load ENV
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 WEATHER_API = os.getenv("WEATHER_API")
@@ -21,7 +20,6 @@ EARTHQUAKE_API = os.getenv("EARTHQUAKE_API")
 USERS_FILE = "users.json"
 HISTORY_FILE = "history.json"
 
-# -------- Utility -------- #
 def load_json(file):
     if not os.path.exists(file):
         return {}
@@ -41,7 +39,6 @@ def save_json(file, data):
 users = load_json(USERS_FILE)
 history = load_json(HISTORY_FILE)
 
-# -------- Handlers -------- #
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [InlineKeyboardButton("🌦 Cuaca", callback_data="cuaca"),
@@ -97,7 +94,6 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             parse_mode="Markdown"
         )
 
-# -------- API Features -------- #
 async def cuaca(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if len(context.args) < 1:
         await update.message.reply_text("❌ Contoh: `/cuaca jakarta`", parse_mode="Markdown")
@@ -166,12 +162,10 @@ async def alert(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def language(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🌐 Fitur multi-bahasa.\nContoh: `/language en` untuk English.")
 
-# -------- Daily Job -------- #
 async def send_daily_weather(context: ContextTypes.DEFAULT_TYPE):
     for uid in users:
         await context.bot.send_message(uid, "🌦 Update cuaca harian (dummy).")
 
-# -------- Main -------- #
 def main():
     app = (
         Application.builder()
