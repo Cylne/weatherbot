@@ -40,6 +40,8 @@ Dibuat untuk memudahkan pengguna mendapatkan informasi penting langsung di Teleg
 
 ## 📸 Tampilan Bot
 
+![Image](https://github.com/user-attachments/assets/4e0301b7-0196-425a-8ecc-db6abbe3bb68)
+
 Contoh interaksi bot:
 
 ```
@@ -92,7 +94,7 @@ Bot akan menjawab:
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/username/weatherbot.git
+git clone https://github.com/Cylne/weatherbot.git
 cd weatherbot
 ```
 
